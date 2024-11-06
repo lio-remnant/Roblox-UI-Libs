@@ -347,6 +347,13 @@ do
             Max = 2, Current = 0
         }
         --
+        Utility.AddFolder("Abyss")
+        Utility.AddFolder("Abyss/Caches")
+        Utility.AddFolder("Abyss/Assets")
+        Utility.AddFolder("Abyss/Assets/UI")
+        Utility.AddFolder("Abyss/Configs")
+        Utility.AddFolder("Abyss/Scripts")
+        --
         Library.Theme.Logo = Utility.AddImage("Abyss/Assets/UI/Logo2.png", "https://i.imgur.com/HI4UTmZ.png")
         --
         local WindowOutline = Utility.AddDrawing("Square", {
@@ -472,13 +479,6 @@ do
         WindowText.Position = Vector2.new(WindowFrame.Position.X + (WindowFrame.Size.X / 2), SliderInline.Position.Y - 16)
         --
         Window.SetText(0, "UI Initialization [ Downloading ]")
-        --
-        Utility.AddFolder("Abyss")
-        Utility.AddFolder("Abyss/Caches")
-        Utility.AddFolder("Abyss/Assets")
-        Utility.AddFolder("Abyss/Assets/UI")
-        Utility.AddFolder("Abyss/Configs")
-        Utility.AddFolder("Abyss/Scripts")
         --
         Library.Theme.Gradient = Utility.AddImage("Abyss/Assets/UI/Gradient.png", "https://raw.githubusercontent.com/mvonwalk/Exterium/main/Gradient.png")
         -- Library.Theme.SecondIcon = Utility.AddImage("Abyss/Assets/UI/Gradient.png", "https://raw.githubusercontent.com/mvonwalk/Exterium/main/Gradient.png")
