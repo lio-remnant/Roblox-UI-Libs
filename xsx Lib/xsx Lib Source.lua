@@ -262,7 +262,7 @@ function library:Watermark(text)
 
     bar.Name = "bar"
     bar.Parent = barFolder
-    bar.BackgroundColor3 = Color3.fromRGB(159, 115, 255)
+    bar.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     bar.BackgroundTransparency = 0
     bar.Size = UDim2.new(0, 0, 0, 1)
 
@@ -345,7 +345,7 @@ function library:Watermark(text)
         edge.Parent = watermark
         edge.AnchorPoint = Vector2.new(0.5, 0.5)
         edge.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
-        edge.Position = UDim2.new(0.5, 0, -0.03, 0)
+        edge.Position = UDim2.new(5, 0, -0.03, 0)
         edge.Size = UDim2.new(0, 0, 0, 26)
         edge.BackgroundTransparency = 1
     
@@ -359,7 +359,7 @@ function library:Watermark(text)
         background.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
         background.BackgroundTransparency = 1
         background.ClipsDescendants = true
-        background.Position = UDim2.new(0.5, 0, 0.5, 0)
+        background.Position = UDim2.new(5, 0, 0.5, 0)
         background.Size = UDim2.new(0, 0, 0, 24)
     
         barFolder.Name = "barFolder"
